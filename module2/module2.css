@@ -1,0 +1,39 @@
+
+#sup #beaf #chicken{
+    align-items: right;
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+}
+
+h3{
+    margin: 0;
+    text-align: center;
+    background-color: green;
+    border: 1px solid black;
+}
+
+.col-s-12{
+    width: 100%;
+    margin: 5px;
+    background-color: yellow;
+    border: 1px solid black;
+}
+
+@media (min-width: 992px){
+    .col-lg-4{
+        margin: 5px;
+        width: 30%;
+        float: left;
+    }
+}
+
+@media(min-width: 768px) and (max-width: 991px){
+    .col-md-6{
+        margin: 5px;
+        width: 40%;
+        float: left;
+    }
+}
